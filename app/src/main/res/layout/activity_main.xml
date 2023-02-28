@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/search_info_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Search by City Name, Zipcode, City Id" />
+
+
+        <LinearLayout
+            android:id="@+id/search_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/search_info_edit"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/search_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:textAllCaps="false"
+                android:text="Search with City,\nZipcode, City Id" />
+
+            <Button
+                android:id="@+id/search_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Get Lat Long  \n of present location" />
+        </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_section"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc1"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc2"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr_image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+              <ImageView
+                  android:id="@+id/image_view"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_column="0"/>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc3"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc4"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+
+
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc5"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc6"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc7"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc8"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc9"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc10"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc11"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc12"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc13"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc14"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc15"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc16"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc17"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc18"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc19"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc20"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc21"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc22"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tc23"
+                android:text="coloumn 1"
+                android:layout_column="0"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tc24"
+                android:text="coloumn 2"
+                android:layout_column="1"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+</layout>
